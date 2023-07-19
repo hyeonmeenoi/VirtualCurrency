@@ -17,7 +17,9 @@ function Main() {
     getCoins();
   }, []);
   return loading ? (
-    <Loading />
+    <div class="loading_main">
+      <Loading />
+    </div>
   ) : (
     <div class="main_box">
       {coins.map((coin) => (
