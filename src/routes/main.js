@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import Coin from "../components/coin";
+import Loading from "../components/loading";
+import "../css/main.css";
 
 function Main() {
   const [loading, setLoading] = useState(true);
@@ -15,9 +17,9 @@ function Main() {
     getCoins();
   }, []);
   return loading ? (
-    <h1>Loading...</h1>
+    <Loading />
   ) : (
-    <div>
+    <div class="main_box">
       {coins.map((coin) => (
         <Coin
           id={coin.id}
