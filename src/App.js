@@ -6,11 +6,8 @@ function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path={`${process.env.PUBLIC_URL}/`} element={<Main />} />
-        <Route
-          path={`${process.env.PUBLIC_URL}/coin/:id`}
-          element={<Detail />}
-        />
+        <Route path="/" element={<Main />} />
+        <Route path="/coin/:id" element={<Detail />} />
       </Routes>
     </BrowserRouter>
   );
