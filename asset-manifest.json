@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/VirtualCurrency/static/css/main.81842f9b.css",
-    "main.js": "/VirtualCurrency/static/js/main.f04457ae.js",
+    "main.js": "/VirtualCurrency/static/js/main.a217a5e0.js",
     "static/js/787.7c0049ab.chunk.js": "/VirtualCurrency/static/js/787.7c0049ab.chunk.js",
     "index.html": "/VirtualCurrency/index.html",
     "main.81842f9b.css.map": "/VirtualCurrency/static/css/main.81842f9b.css.map",
-    "main.f04457ae.js.map": "/VirtualCurrency/static/js/main.f04457ae.js.map",
+    "main.a217a5e0.js.map": "/VirtualCurrency/static/js/main.a217a5e0.js.map",
     "787.7c0049ab.chunk.js.map": "/VirtualCurrency/static/js/787.7c0049ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.81842f9b.css",
-    "static/js/main.f04457ae.js"
+    "static/js/main.a217a5e0.js"
   ]
 }
